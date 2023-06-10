@@ -1,0 +1,29 @@
+[
+    {
+        "sid": 0,
+        "bleeding": "No, it's a rash - why would I be bleeding?",
+        "bodypart": "my face",
+        "cause": "started yesterday morning after I woke up",
+        "frequency": "mostly when outside in the sun",
+        "pain": "I dont feel any pain",
+        "problem": "I have an itchy face"
+    },
+    {
+        "sid": 1,
+        "bleeding": "No, it just hurts a lot",
+        "bodypart": "my left leg",
+        "cause": "I fell over in the garden",
+        "frequency": "its just constantly throbbing and hurting",
+        "pain": "it is a sharp throbbing pain",
+        "problem": "my leg hurts"
+    },
+    {
+        "sid": 2,
+        "bleeding": "quite a lot actually, and I think I can see the bone.",
+        "bodypart": "my left index finger",
+        "cause": "I was working on my car in the garage",
+        "frequency": "its going on right now",
+        "pain": "It's a dull pain",
+        "problem": "I cut my finger"
+    }
+]
