@@ -41,11 +41,3 @@ class DrLexResourcesStack(Stack):
         drlex_intent_function.add_environment("DDB_TABLE_NAME", os.getenv("DDB_TABLE_NAME"))
         self.scenario_table.grant_read_data(drlex_intent_function)
 
-        CUSTOM_SUFFIX_SLR = str(uuid.uuid1())[:8]
-        lex_service_linked_role = iam.CfnServiceLinkedRole(
-            self,
-            "DrLexServiceLinkedRole",
-            aws_service_name="lexv2.amazonaws.com",
-            custom_suffix=CUSTOM_SUFFIX_SLR
-        )
-
