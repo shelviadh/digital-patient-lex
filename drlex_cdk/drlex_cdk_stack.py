@@ -26,18 +26,4 @@ class DrlexCdkStack(Stack):
             Stack.of(self).account,
             CUSTOM_SUFFIX_SLR)
 
-        # drlex_data_privacy = { "ChildDirected" : False}
-
-        # english_us_bot_locale = lex.CfnBot.BotLocaleProperty(
-        #     locale_id="en_US",
-        #     nlu_confidence_threshold=123
-        # )
-
-        # drlex_bot = lex.CfnBot(self,"DrLexBot",
-        #                     idle_session_ttl_in_seconds=3600,
-        #                     name="DrLexBot-cdk",
-        #                     role_arn=lex_service_linked_role_arn,
-        #                     data_privacy=drlex_data_privacy)
-
-        # drlex_bot.add_depends_on(lex_service_linked_role)
         
