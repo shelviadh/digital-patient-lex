@@ -33,7 +33,7 @@ Parameters:
   pFunctionRunTime:
     Description: The runtime of the function
     Type: String
-    Default: nodejs18.x
+    Default: nodejs14.x
   pFunctionMemorySize:
     Description: The memory assigned to the function
     Type: String
